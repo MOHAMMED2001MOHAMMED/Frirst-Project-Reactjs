@@ -1,0 +1,37 @@
+nav{
+    background-color:#fff;
+    height: auto;
+    border-radius: 0px;
+}
+
+
+nav a{
+    color :#ab3550 !important; 
+    font-size: 15px;
+    font-weight:bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1px;
+    
+}
+
+
+
+@media (min-width : 650px) {
+    .ml-auto{
+    margin-right :150px;
+    }
+}
+
+
+nav #lastnav{
+    border: 3px solid #ab3550;
+    background-color: #ab3550;
+    box-sizing: border-box;
+    color : #fff !important;
+}
+
+nav #lastnav:hover{
+    background-color: transparent;
+    color: #ab3550 !important;
+    transition: .2c ease-in-out;
+}

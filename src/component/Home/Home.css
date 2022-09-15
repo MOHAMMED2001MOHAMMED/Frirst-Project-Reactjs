@@ -1,0 +1,387 @@
+.number h6{
+    text-transform: uppercase;
+    color: #fff;
+
+}
+
+.number h2{
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.number{
+    background-color: #ab3550;
+    padding: 25px 0px;
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+
+/* pride section ..... */
+
+
+.pride {
+    background-color: transparent;
+    padding: 25px 0px;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+
+.pride img{
+    max-width: 100%;
+    border-radius: 10px;
+    color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.pride h2{
+    color: #a82d49;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    width: 80%;
+    line-height: 55px;
+}
+
+.pride button {
+    background-color: #a82d49;
+    border:  1px solid #a82d49;
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.pride button a{
+    display: block;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.pride button:hover a{
+    color: #a82d49;
+    transition: .2s ease;
+}
+
+.pride button:hover{
+    background-color: #fff;
+
+}
+
+/* ingredients */
+
+.ingredients{
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+
+.ingredients h2 {
+   color: #a82d49;
+   font-size: 40px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   width: 80%;
+}
+
+
+.ingredients p{
+    color: #777;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .ingredients button {
+    background-color: #a82d49;
+    color: #fff;
+    border: none;
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    text-transform: uppercase;
+
+ }
+
+ .ingredients button:hover {
+    background-color: #fff;
+    color: #a82d49;
+    border: 1px solid #a82d49;
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    text-transform: uppercase;
+ }
+
+ .ingredients img {
+    margin-left: 20px;
+    width: 90%;
+ }
+
+ .pralex{
+    background: url("http://demo.tutsflow.com/foodera/images/parallax/1.jpg")center no-repeat;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    height: 500px;
+    padding: 30px 0px;
+    background-size: cover;
+    margin-bottom: 20px;
+ }
+
+ .pralex h2{
+    color: #a82d49;
+    width: 80%;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 90px;
+    margin-top: 80px;
+
+ }
+
+
+ @media(max-width:540px){
+    .pralex h2{
+       
+        color: #000000;
+       
+    }
+    
+
+ }
+
+ .pralex p{
+    color: #777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 80%;
+    margin-left: 90px;
+ }
+
+ .pralex a{
+    color: rgb(236, 93, 93);
+    text-align: center;
+    text-decoration: none;
+    margin-right: 50px;
+ }
+
+ .pralex a:hover{
+    color: #d23459;
+ }
+
+ .Explore {
+margin-top: 50px; 
+padding: 25px;
+overflow: hidden;
+width: 100%;
+height: auto;
+}
+
+.Explore-h2{
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Explore-p {
+    color: #777;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    margin-left: 80px;
+    text-align: center;
+}
+
+
+.Explore img{
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+
+.box{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.box h4{
+    font-size: 25px;
+    margin-top: 10px 0px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box p{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777;
+}
+
+.box .price{
+    color: #a82d49;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.box button{
+    background-color: #a82d49;
+    color: #fff;
+    border: none;
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.box button:hover{
+    background-color: #fff;
+    color: #a82d49;
+    border: 1px solid #a82d49;
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+.box a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.slider{
+width: 100%;
+background-color: #a82d49;
+max-width: 100%;
+border: 1px solid #a82d49;
+text-align: center;
+height: 400px;
+padding: 25px 0px;
+margin-bottom: 20px;
+}
+
+.slider img{
+    margin-top: 10px;
+    border-radius: 50%;
+    width:300px;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.slider h3{
+margin-top: 50px;
+}
+
+.slider .carousel-caption h3{
+   margin-top: 50px;
+}
+
+.Questions{
+    margin-top: 50px;
+
+}
+
+.Questions h2{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 40px;
+    
+}
+
+.Questions h3{
+   
+    font-size: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.Questions p{
+    width: 90%;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+
+.Baked{
+    background: url("http://demo.tutsflow.com/foodera/images/parallax/2.jpg") center no-repeat;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 100%;
+    height: 200px;
+    padding: 30px 0px;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.Baked h1{
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.Baked button{
+    background-color: #a82d49;
+    border: none;
+    width: 200px;
+    height: 40px;
+    
+}
+
+.Baked a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.Baked a:hover{
+    color: #a82d49;
+}
+.Baked button:hover{
+    background-color: #fff;
+    border: 1px solid #ab3550;
+}
+
+
+.Whoarewe{
+    background-color: #a82d49;
+}
+
+.Whoarewe h1{
+    color: #fff;
+}
+
+.Whoarewe ul li{
+    color: rgb(224, 217, 217);
+}
+
+.Whoarewe a{
+    color: rgb(224, 217, 217);
+text-decoration: none;
+}
+
+
+
+
